@@ -22,4 +22,4 @@ app.put('/upload', upload.single('file'), (req, res, next) => {
   res.end('Upload success!');
 })
 
-app.listen(6666);
+app.listen(7070);
